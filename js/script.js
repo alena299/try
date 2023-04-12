@@ -41,4 +41,9 @@ a.innerHTML = 999;
 let b = document.querySelector('.header');
 b.innerHTML = 444;
 
-alert('hello');
+function quarterOf(month) {
+    return Math.ceil(month / 3)
+}
+
+let quarter = quarterOf(15);
+console.log(quarter);
